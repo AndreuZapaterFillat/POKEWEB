@@ -1,0 +1,50 @@
+POKEWEB - Documento TODO
+Este documento enumera las tareas pendientes y las funcionalidades planeadas para el proyecto POKEWEB.
+
+Páginas y Funcionalidades
+
+General:
+    1. Implementar el header 
+        - [ ] Botones para redirigir a otras paginas 
+        - [ ] Implementar boton modo nocturno 
+        - [ ] Implementar boton login 
+        - [ ] Implementar boton Deplegable informacion usuario 
+    - [ ] Implementar la funcionalidad de modo nocturno 
+    - [ ] Implementar la funcionalidad de desplegar informacion usuario 
+    - [ ] Implementar funcionalidad login 
+    - [ ] EXTRAS
+        - Implementar boton logout 
+        - Implementar funcionalidad logout 
+
+Página de Inicio de sesion:
+    - Implementar pagina inicio de sesion 
+
+Página de Inicio:
+
+Diseñar el layout básico de la página de inicio 
+Agregar sección de noticias / contenido paginas web.
+
+Pokedex:
+
+Diseñar la interfaz de usuario para la Pokedex.
+Implementar la funcionalidad de búsqueda de Pokémon.
+Mostrar información detallada de cada Pokémon seleccionado.
+Wikidex:
+
+Crear la estructura para la página de la Wikidex.
+Investigar y recopilar información sobre los Pokémon para incluir en la Wikidex.
+Diseñar un sistema de navegación fácil de usar para acceder a diferentes secciones de la Wikidex.
+Pokedle:
+
+Conceptualizar el diseño y la mecánica del juego.
+Desarrollar la lógica del juego para la adivinanza de Pokémon.
+Diseñar la interfaz de usuario del juego, incluyendo la presentación de imágenes y la entrada de respuestas.
+Funcionalidades Generales
+Implementar un menú de navegación para facilitar la navegación entre las diferentes páginas.
+Agregar un sistema de autenticación para permitir a los usuarios guardar sus progresos en el Pokedle.
+Optimizar la página web para dispositivos móviles y tablets.
+Integrar la API de PokeAPI para obtener información actualizada sobre los Pokémon.
+Mejoras Futuras
+Implementar un sistema de clasificación para los usuarios basado en sus logros en el Pokedle.
+Agregar una sección de noticias relacionadas con el mundo Pokémon.
+Incorporar un chat o foro para que los usuarios puedan interactuar entre ellos.
