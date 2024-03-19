@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+*{
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+html {
+    background-color: black;
+    background-image: url('/IMG/fondo_web2.jpg');
+    background-size: 100%;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Fondo inicialmente negro */
+    z-index: -2; /* Colocar detrás del contenido */
+    opacity: 0; /* Establecer la opacidad inicial en 0 */
+    animation: fadeIn 4s forwards; /* Animación de 2 segundos para aparecer */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1; /* Empezar con opacidad 1 */
+    }
+    to {
+        opacity: 0; /* Terminar con opacidad 0 */
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0; /* Empezar con opacidad 0 */
+    }
+    to {
+        opacity: 1; /* Terminar con opacidad 1 */
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar horizontalmente */
+    animation: fadeOut 4s forwards; /* Animación de 4 segundos para aparecer */
+    background-color: transparent;
+    position: relative; /* Para que los pseudo-elementos estén posicionados correctamente */
+}
+
+header::after {
+    content: ''; /* Obligatorio para pseudo-elementos */
+    position: absolute;
+    bottom: 0; /* Lo colocamos en la parte inferior del header */
+    left: 0; /* Alinear con el borde izquierdo */
+    width: 100%; /* Ancho completo */
+    height: 2px; /* Grosor del borde */
+    background: radial-gradient(circle, white, rgb(30, 30, 30));
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.pokeball {
+    width: 3%;
+    height: 3%;
+}
